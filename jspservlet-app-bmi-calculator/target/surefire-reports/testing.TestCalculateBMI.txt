@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: testing.TestCalculateBMI
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.115 sec <<< FAILURE!
-testCalculateMethod(testing.TestCalculateBMI)  Time elapsed: 0.021 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<25.39> but was:<0.0>
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec <<< FAILURE!
+testCalculateMethod(testing.TestCalculateBMI)  Time elapsed: 0.093 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<25.39> but was:<5.6>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:555)

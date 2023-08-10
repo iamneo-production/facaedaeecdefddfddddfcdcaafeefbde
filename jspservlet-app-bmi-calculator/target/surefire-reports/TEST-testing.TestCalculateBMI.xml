@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="testing.TestCalculateBMI" time="0.021" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="testing.TestCalculateBMI" time="0.094" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -59,8 +59,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="testing.TestCalculateBMI" name="testCalculateMethod" time="0.021">
-    <failure message="expected:&lt;25.39&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;25.39&gt; but was:&lt;0.0&gt;
+  <testcase classname="testing.TestCalculateBMI" name="testCalculateMethod" time="0.093">
+    <failure message="expected:&lt;25.39&gt; but was:&lt;5.6&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;25.39&gt; but was:&lt;5.6&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:555)
@@ -99,8 +99,8 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-out>0.0
+    <system-out>5.6
 </system-out>
   </testcase>
-  <testcase classname="testing.TestCalculateBMI" name="testDescriptionMethod" time="0"/>
+  <testcase classname="testing.TestCalculateBMI" name="testDescriptionMethod" time="0.001"/>
 </testsuite>
