@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="testing.TestCalculateBMI" time="0.018" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="testing.TestCalculateBMI" time="0.019" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -59,7 +59,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="testing.TestCalculateBMI" name="testCalculateMethod" time="0.018">
+  <testcase classname="testing.TestCalculateBMI" name="testCalculateMethod" time="0.019">
     <failure message="expected:&lt;25.39&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;25.39&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)

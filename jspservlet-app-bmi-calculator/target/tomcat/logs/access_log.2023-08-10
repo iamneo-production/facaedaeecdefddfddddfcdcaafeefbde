@@ -1,4 +1,0 @@
-127.0.0.1 - - [10/Aug/2023:07:10:12 +0000] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
-127.0.0.1 - - [10/Aug/2023:07:10:37 +0000] "GET /jspservlet-app-ATM%20Maven%20Webapp HTTP/1.1" 404 - http-bio-8080-exec-2 0
-127.0.0.1 - - [10/Aug/2023:07:11:21 +0000] "GET / HTTP/1.1" 404 - http-bio-8080-exec-3 0
-127.0.0.1 - - [10/Aug/2023:07:11:52 +0000] "GET /jspservlet-app-bmi-calculator HTTP/1.1" 404 - http-bio-8080-exec-4 0
