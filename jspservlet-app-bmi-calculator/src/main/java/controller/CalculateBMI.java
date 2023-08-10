@@ -5,9 +5,8 @@ public class CalculateBMI {
 	//Enter the code here....
 	
 		public static double calculate(double height, double weight) {
-			double b =(weight) / (height * height);
-			double d=Math.round(b*Math.pow(10, 2))/Math.pow(10,2);
-			return d;
+			double bmi = weight / ((height / 100) * (height / 100));
+   			return Math.round(bmi * 100.0) / 100.0;
 		}
 		
 		public static String description(double B) {
